@@ -1,0 +1,67 @@
+/*global */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{line-height: 2;font-size: 20px;}
+
+h1{font-size: 35px;}
+h1,h2,h3{text-align: center;}
+h2{font-size: 29;}
+h3{font-size: 26;color: fuchsia;}
+p{outline-color: hotpink;
+    outline-width: 10px;
+background-color: paleturquoise;}
+/*header*/
+header
+{background-image: url(download.jpg);
+    color:whitesmoke;
+    height: 200px;
+    width: 100%;
+    text-align: center;}
+    .icon i{display: flex;
+    align-items: center;
+        width: 20px;
+    height: 20px;
+background-color:bisque;
+border-radius: 50%;margin-left: auto;
+margin-right: auto;}
+
+p2{font-size: 30px;
+color: rgb(243, 11, 154);
+;font: outline;font-weight: 900;}
+main{text-align: center;}
+main p{margin-left: auto;
+margin-right: auto;
+width: 800px;
+}
+
+
+/* Menu */ 
+.menu{
+    background-color: black;
+    color: blanchedalmond;padding: 25px;
+    text-align: center;
+}
+.menu a{
+    color: cornsilk;
+text-decoration: none;}
+.menu a:hover{
+    color: darkslateblue;
+    font-size: 30px;
+}
+.main
+{margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.card{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{font-size: xx-small;}
